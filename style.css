@@ -1,0 +1,98 @@
+html {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    height: 99%;
+}
+
+body {
+    border-radius: 20px;
+}
+
+div.main {
+    width: 100%;
+}
+
+h1 {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px white solid;
+    color: rgb(0, 255, 238);
+}
+
+p {
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 2em;
+}
+
+#mname {
+    width: 50%;
+    height: 2em;
+    max-height: 4em;
+}
+
+#mreplace {
+    height: 4em;
+    max-height: 10em;
+}
+
+button {
+    
+}
+
+div.table {
+    width: 100%;
+    overflow-y: scroll;
+    height: 11em;
+    max-height: 11em;
+    border: 1px white solid;
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px white solid;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    width: 33%;
+}
+
+th {
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    font-weight: bold;
+    color: rgb(0, 255, 238);
+}
+
+div.promo {
+    margin-top: 0;
+    height: 2em;
+    text-align: left;
+}
+
+a {
+    width: 100%;
+    color: rgb(0, 255, 238);
+}
+

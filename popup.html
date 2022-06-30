@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>!#replace</h1>
+            <p class="description">Type !#&lt;word&gt; to use your macro!</p>
+            <p>Create macros here:</p>
+            <textarea id="mname" rows="2" cols="20" placeholder="macro id"></textarea>
+            <textarea id="mreplace" rows="2" cols="40" placeholder="text to replace with"></textarea>
+            </br></br>
+            <button id="addmacro">Add Macro</button>
+            </br></br>
+        </div>
+        <!--<div class="header">
+            <table>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>-->
+        <div class="table">
+            <table id="macros">
+                <tbody id="body">
+                    <tr>
+                        <th title="Type !#<macroid> to use your macro!">Macro ID</th>
+                        <th>Replacement</th>
+                        <th>Delete Macro</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="promo">
+            <a target="_blank" href="https://github.com/clydeandersoniii/chrome-extension_replace">Github</a>
+        </div>
+        <!-- <textarea id="testbox" rows="10" cols="50" placeholder="Try it out!"></textarea> -->
+        <!--<script type="module" src="js/format.js"></script>-->
+        <script type="module" src="js/script.js"></script>
+    </body>
+</html>
